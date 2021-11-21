@@ -1,3 +1,10 @@
+## Fiber 的本质
+Filber 就是 React 重写后的 Virtrued  Dom
+ 
+1. 函数组件和类组件本身没有 DOM节点
+2. 源码 React/src/client/ReactDOMRoot.js 文件找到 `ReactDOMRoot。prototype.render` 可以打印 `filber` 的数据结构 
+3. React 18 之后，写 jsx 不一定要 import React 包了
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
